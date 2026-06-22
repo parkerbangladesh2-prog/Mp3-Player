@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single Page Application (SPA) routing redirection rules
+# Redirects all routes to index.html for client-side router navigation
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Netlify environment parameters documentation suggestion
+# In Netlify Dashboard, go to Site Settings -> Environment Variables and add:
+# GEMINI_API_KEY = "your-google-gemini-key"

@@ -1,0 +1,6 @@
+{
+  "name": "SonicNote",
+  "description": "Premium music player with Notion-like database properties, boards, summaries, and AI lyrics insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
